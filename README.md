@@ -25,5 +25,12 @@ The total data size is 2.9GB.
 - Dask (work in progress)
 
 #### Interestings:
-
+###### Occupations with the highest average contribution amount
+(work in progress - needs more intelligence in Occupation text field)
+```
+select "Occupation", avg("Transaction Amount") 
+from individual_contributions 
+group by 1 order by 2 desc limit 25;
+```
+![First go at finding the occupations with highest average campaign contributions](https://github.com/kdunn926/gov-data/raw/master/highest-average-contributions-by-occupation-naive.png)
 
