@@ -1,0 +1,35 @@
+Report Type Code,Report Type,Explanation
+12C,PRE-CONVENTION,For states using conventions to select candidates. Report covers through 20 days before the convention
+12G,PRE-GENERAL,Report covers through 20 days before the general election - due 12 days before the election
+12P,PRE-PRIMARY,Report covers through 20 days before the primary- due 12 days before the election
+12R,PRE-RUN-OFF,Report covers through 20 days before the run-off- due 12 days before the election
+12S,PRE-SPECIAL,Report covers through 20 days before the special election - due 12 days before the election
+30D,POST-ELECTION,Report covers from 19 days before the election through 20 days after - due 30 days after the election
+30G,POST-GENERAL,Report covers from 19 days before the election through 20 days after. - due 30 days after the election
+30P,POST-PRIMARY,Report covers from 19 days before the election through 20 days after. - due 30 days after the election
+30R,POST-RUN-OFF,Report covers from 19 days before the election through 20 days after. - due 30 days after the election
+30S,POST-SPECIAL,Report covers from 19 days before the election through 20 days after. - due 30 days after the election
+60D,POST-CONVENTION,"Report filed by national party convention and host committees disclosing their convention expenses, due 60 days after the convention"
+ADJ,COMP ADJUST AMEND,Adjustment of a comprehensive amendment - coverage is variable
+CA,COMPREHENSIVE AMEND,Amendment modifying information from two or more original reports - coverage is variable
+M10,OCTOBER MONTHLY,Covers September - due October 20
+M11,NOVEMBER MONTHLY,Covers October - due November 20
+M12,DECEMBER MONTHLY,Covers November - due December 20
+M2,FEBRUARY MONTHLY,Covers January - due February 20
+M3,MARCH MONTHLY,Covers February - due March 20
+M4,APRIL MONTHLY,Covers March - due April 20
+M5,MAY MONTHLY,Covers April - due May 20
+M6,JUNE MONTHLY,Covers May - due June 20
+M7,JULY MONTHLY,Covers June - due July 20
+M8,AUGUST MONTHLY,Covers July - due August 20
+M9,SEPTEMBER MONTHLY,Covers August - due September 20
+MY,MID-YEAR REPORT,Covers January 1 through June 30 - due July 31 Permissible in non-election years for PACs and party committees normally filing Quarterly reports. (Note that since 2003 campaign committees must file quarterly in all years.)
+Q1,APRIL QUARTERLY,Covers January 1 through March 31 - due April 15
+Q2,JULY QUARTERLY,Covers April 1 through June 30 - due July 15
+Q3,OCTOBER QUARTERLY,Covers July 1 through September 30 - due October 15
+TER,TERMINATION REPORT,Final report submitted by a committee - coverage is variable
+YE,YEAR-END,Covers from the end of the last quarterly or mid-year report through December 31 - due January 31
+90S,POST INAUGURAL SUPPLEMENT,
+90D,POST INAUGURAL,Filing of Presidential inaugural committee - due 90 days after the Inauguration
+48H,48 HOUR NOTIFICATION,"Report of specific contribution of 1,000ormoremadetoacampaignwithin20daysofanelection.Alternatively,onceaPACorpartyorotherpersonhasmadeindependentexpendituresexceeding10,000 in a race these and future independent expenditures must be reported. Due within 48 hours of receiving the contribution or public distribution of the independent expenditure. 48 hour timing for independent expenditures applies prior to 20 days before the election."
+24H,24 HOUR NOTIFICATION,"Within 20 days of an election once a PAC or party or other person has made independent expenditures exceeding $1,000 in a race these and future independent expenditures must be reported. Due within 24 hours of the public distribution of the independent expenditure."

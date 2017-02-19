@@ -1,0 +1,22 @@
+Disbursment Category Code,Disbursment Category Code Description
+1,"Administrative/Salary/Overhead Expenses (e.g., rent, staff salaries, postage, office supplies,
+equipment, furniture, ballot access fees, petition drives, party fees and legal and accounting expenses)"
+2,"Travel Expenses - including travel reimbursement expenses
+(e.g., costs of commercial carrier tickets; reimbursements for use of private vehicles, advance payments for use of corporate aircraft; lodging and meal expenses incurred during travel)"
+3,"Solicitation and Fundraising Expenses (e.g., costs for direct mail solicitations and fundraising events including printing, mailing lists, consultant fees, call lists, invitations, catering costs and room rental)"
+4,"Advertising Expenses -including general public political advertising (e.g., purchases of radio/television broadcast/cable time, print advertisements and related production costs)"
+5,Polling Expenses
+6,"Campaign Materials (e.g., buttons, bumper stickers, brochures, mass mailings, pens, posters, balloons)"
+7,"Campaign Event Expenses (e.g., costs associated with candidate appearances, campaign rallies, town meetings, phone banks, including catering costs, door to door get-out-the-vote efforts and driving voters to the polls)"
+8,"Transfers (e.g., to other authorized committees of the same candidate)"
+9,"Loan Repayments (e.g., repayments of loans made/guaranteed by the candidate or other person)"
+10,"Refunds of Contributions (e.g., contribution refunds to individuals/ persons, political party committees or other political committees)"
+11,"Political Contributions (e.g., contributions to other federal candidates and committees, donations to nonfederal candidates and committees)"
+12,"Donations (e.g., donations to charitable or civic organizations"
+101,Expenses that are not allocable
+102,Media Expenditures
+103,"Expenditures for Mass Mailings and other Campaign Materials (e.g., buttons, bumper stickers, brochures, mass mailings, pens, posters, balloons)"
+104,"Overhead Expenditures of State Offices and their Facilities (e.g., rent, staff salaries, postage, office supplies, equipment, furniture, ballot access fees, petition drives, party fees and legal and accounting expenses)"
+105,Expenditures for Special Telephone Programs
+106,Public Opinion Poll Expenditures
+107,"Fundraising Expenditures (e.g., costs for direct mail solicitations & fundraising events including printing, mailing lists, consultant fees, call lists, invitations, catering costs and room rental)"
