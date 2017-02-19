@@ -43,6 +43,8 @@ group by 1 order by 2 desc limit 25;
 ```
 ![average-amount-by-employer-string](https://github.com/kdunn926/gov-data/raw/master/images/highest-average-contributions-by-employer-naive.png)
 
+---
+
 ### Congressional Record (govdata-congressionalRecord*)
 
 These notebooks provide a workflow for download and parsing the HTML version of the publically-available U.S. Congressional Publishing Office's Congressional Record, available in this format dating back to 1994 - the 103rd Congress. 
