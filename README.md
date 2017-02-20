@@ -54,13 +54,13 @@ These notebooks provide a workflow for download and parsing the HTML version of 
 This notebook provides a workflow for downloading the entire U.S. Congressional Record in either HTML or PDF format, conviently made publically available by the Government Publishing Office's FDsys portal.
 
 The process is as follows:
-1. Define some years, months, and days of interest
-2. "Click" through the tables found here to expand a given year, month, and day: https://www.gpo.gov/fdsys/browse/collection.action?collectionCode=CREC
-3. Extract all "source data links" from the inner most HTML table - both HTML and PDF format - into a list
-4. Download each of the files from that list (I use HTML for ease of parsing)
-5. Merge multi-file sessions into a single text file -  House and Senate sessions are commonly broken into multiple HTML pages (for "ease" of reading, or potentially, "difficulty" of scraping)
-6. Another notebook in this repo is available for parsing these plain text files into interesting features - monologues, inter-monologue [name] references, proper nouns, etc.
-7. Another set of scripts in this repo will load outputs from step 6. into a Neo4J database 
+ 1. Define some years, months, and days of interest
+ 2. "Click" through the tables found here to expand a given year, month, and day: https://www.gpo.gov/fdsys/browse/collection.action?collectionCode=CREC
+ 3. Extract all "source data links" from the inner most HTML table - both HTML and PDF format - into a list
+ 4. Download each of the files from that list (I use HTML for ease of parsing)
+ 5. Merge multi-file sessions into a single text file -  House and Senate sessions are commonly broken into multiple HTML pages (for "ease" of reading, or potentially, "difficulty" of scraping)
+ 6. Another notebook in this repo is available for parsing these plain text files into interesting features - monologues, inter-monologue [name] references, proper nouns, etc.
+ 7. Another set of scripts in this repo will load outputs from step 6. into a Neo4J database 
 
 ##### Note: this process is constrained mostly by the sheer number of web requests to download the whole corpus. I don't have specific timing captured but as I recall it was on the order of 24 hours on a 40Mbit connection and 4 threads.
 
