@@ -37,21 +37,21 @@ ALTER TABLE public.candidate_committee_linkage OWNER TO postgres;
 --
 
 CREATE TABLE candidate_master (
-    committee_identification text,
-    committee_name text,
-    treasurers_name text,
-    street_one text,
-    street_two text,
-    city_or_town text,
-    state text,
-    zip text,
-    committee_designation text,
-    committee_type text,
-    committee_party text,
-    filing_frequency text,
-    interest_group_category text,
-    connected_organizations_name text,
-    candidate_identification text
+    candidate_identification text,
+    candidate_name text,
+    party_affiliation text,
+    year_of_election bigint,
+    candidate_state text,
+    candidate_office text,
+    candidate_district text,
+    incumbent_challenger_status text,
+    candidate_status text,
+    principal_campaign_committee text,
+    mailing_address_street text,
+    mailing_address_street2 text,
+    mailing_address_city text,
+    mailing_address_state text,
+    mailing_address_zip text
 );
 
 
@@ -119,9 +119,9 @@ ALTER TABLE public.committee_to_candidate OWNER TO postgres;
 --
 
 CREATE TABLE committee_type (
-    "Committee Type Code" text,
-    "Committee Type" text,
-    "Explanation" text
+    committee_type_code text,
+    committee_type text,
+    explanation text
 );
 
 
@@ -132,8 +132,8 @@ ALTER TABLE public.committee_type OWNER TO postgres;
 --
 
 CREATE TABLE disbursment_type (
-    "Disbursment Category Code" bigint,
-    "Disbursment Category Code Description" text
+    disbursment_category_code bigint,
+    disbursment_category_code_description text
 );
 
 
@@ -231,7 +231,7 @@ CREATE TABLE operating_expenditures (
     file_number_or_report_id text,
     transaction_id text,
     back_reference_transaction_id text,
-    "null" text
+    null_column text
 );
 
 
@@ -242,9 +242,9 @@ ALTER TABLE public.operating_expenditures OWNER TO postgres;
 --
 
 CREATE TABLE party_codes (
-    "Party Code" text,
-    "Party Code Description" text,
-    "Notes" text
+    party_code text,
+    party_code_description text,
+    notes text
 );
 
 
@@ -255,9 +255,9 @@ ALTER TABLE public.party_codes OWNER TO postgres;
 --
 
 CREATE TABLE report_type (
-    "Report Type Code" text,
-    "Report Type" text,
-    "Explanation" text
+    report_type_code text,
+    report_type text,
+    explanation text
 );
 
 
@@ -268,8 +268,8 @@ ALTER TABLE public.report_type OWNER TO postgres;
 --
 
 CREATE TABLE transaction_type (
-    "Transaction Type" text,
-    "Transaction Type Description" text
+    transaction_type text,
+    transaction_type_description text
 );
 
 
