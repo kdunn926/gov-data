@@ -12,10 +12,8 @@ There is also an example method for loading PostgreSQL for the two largest datas
 The total data size is 2.9GB.
 
 #### TODO: 
-- DDL / table definitions for each dataset
 - MD5 checksums for each file
 - Additional "interestings"
-- Neo4J loading scripts (this will be useful for more easily tracing the flow from committees to candidates)
 
 #### Dependencies:
 - cURL
@@ -49,6 +47,7 @@ group by 1 order by 2 desc limit 25;
 
 These notebooks provide a workflow for download and parsing the HTML version of the publically-available U.S. Congressional Publishing Office's Congressional Record, available in this format dating back to 1994 - the 103rd Congress. 
 
+Total data size after loading to Neo4J is around 10GB.
 
 #### [Scraper](https://github.com/kdunn926/gov-data/blob/master/govdata-congressionalRecordScraper.ipynb)
 This notebook provides a workflow for downloading the entire U.S. Congressional Record in either HTML or PDF format, conviently made publically available by the Government Publishing Office's FDsys portal.
@@ -72,7 +71,7 @@ Additionally, it attempts to identify and extract:
 - mentions within a monologue of other people and proper nouns, both implemented using some hairy regexp
 - "context" of a monologue - each monologue is assigned a unique, sequential id, to facilitate contextual forward/backward exploration of the session when starting from a single monologue
 
-We also "join" in Congressional "roster" data, scraped (and manually cleaned) from Wikipedia - to allow annotating: 
+Congressional "roster" data, scraped (and manually cleaned) from Wikipedia is joined in to allow annotating the following: 
 - party affiliations
 - state represented
 - "role" in the Congress (whip, speaker, etc.)
